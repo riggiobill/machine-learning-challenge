@@ -49,28 +49,15 @@ In this homework assignment, you will need to:
 
 - - -
 
-## Hints and Considerations
+## Analysis
 
-* Start by cleaning the data, removing unnecessary columns, and scaling the data.
+    I used the sklearn linear model with LogisticRegression. Using an array of the data set up
+    for x and y train and test values, the score for the model ended up being roughly .50~ 
+    which on the scale up to 1 is not particularly good. This suggests that the model used
+    is not particularly good for predicting data, at a rate of roughly one in two, and could
+    use more fine tuning. Further developments could adjust hyperparameters or seek more data
+    to compare test and train data scores.
 
-* Not all variables are significant be sure to remove any insignificant variables.
 
-* Make sure your `sklearn` package is up to date.
-
-* Try a simple model first, and then tune the model using `GridSearch`.
-
-- - -
-
-## Submission
-
-* Create a Jupyter Notebook for each model and host the notebooks on GitHub.
-
-* Create a file for your best model and push to GitHub
-
-* Include a README.md file that summarizes your assumptions and findings.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
